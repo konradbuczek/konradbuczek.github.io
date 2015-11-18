@@ -1,0 +1,58 @@
+.es-carousel-wrapper {
+    position:                   relative;
+    padding:                    18px 27px 12px;
+    margin-bottom:              0px;
+}
+.es-carousel {
+    overflow:                   hidden;
+}
+.es-carousel ul {
+    display:                    inline-block ! important;
+}
+.es-carousel ul li {
+    height:                     100%;
+    width:                      100%;
+    float:                      left;
+    display:                    inline-block;
+}
+.es-carousel ul li a {
+    border-width:               0px ! important;
+    display:                    block;
+}
+.es-carousel ul li.selected a {
+    opacity:                    1;
+    -ms-filter:                 "alpha(opacity=100)";
+    filter:                     alpha(opacity=100);
+    zoom:                       1;
+}
+.es-carousel ul li a img {
+    display:                    block;
+    border:                     medium none;
+    max-height:                 100%;
+}
+.es-nav span {
+    position:                   absolute;
+    top:                        50%;
+    left:                       8px;
+    background:                 url("../images/nav_thumbs.png") no-repeat scroll left top transparent;
+    width:                      14px;
+    height:                     26px;
+    margin-top:                 -13px;
+    text-indent:                -9000px;
+    cursor:                     pointer;
+    opacity:                    0.25;
+    -ms-filter:                 "alpha(opacity=25)";
+    filter:                     alpha(opacity=25);
+    zoom:                       1;
+}
+.es-nav span.es-nav-next {
+    right:                      8px;
+    left:                       auto;
+    background-position:        right top;
+}
+.es-nav span:hover {
+    opacity:                    1;
+    -ms-filter:                 "alpha(opacity=100)";
+    filter:                     alpha(opacity=100);
+    zoom:                       1;
+}

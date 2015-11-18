@@ -1,0 +1,173 @@
+@media screen and (max-width: 1170px) {
+
+dl.left {
+    left: 0px;
+}
+
+dl.right {
+    right: 0px;
+}
+
+#education h2.timeLineHeadline {
+border-bottom: 1px solid #000;
+}
+
+#experience h2.timeLineHeadline {
+border-top: 1px solid #000;
+}
+
+h2.timeLineHeadline {
+    display: block;
+    font-family: finger paint;
+}
+
+.downloadCV {
+    top: 550px;
+}
+
+
+p.timeline {
+    display: none;
+    position: relative;
+    text-align: center;
+    top: 200px;
+}
+
+#education {
+	float: left;
+	margin-top: 50px;
+}
+
+#experience {
+	float: right;
+}
+
+.timeLineBox .timeLine, .timeLineBoxDown .timeLine {
+    border-left: none;
+}
+
+
+
+div.timeLineBox {
+    left: 0 !important;
+    position: relative;
+    top: auto;
+}
+
+div.timeLineBoxDown {
+    bottom: auto;
+    left: 0 !important;
+    position: relative;
+    top: auto;
+}
+
+.timeLineBoxDown p {
+    bottom: auto;
+    position: relative;
+}
+
+
+
+.cuny .timeLine {
+    height: auto;
+}
+
+.market .timeLine {
+    height:                     auto;
+}
+.ucl .timeLine {
+    height:                    auto;
+}
+.quip .timeLine {
+    height:                    auto;
+}
+.autoSense .timeLine {
+    height:                     auto;
+}
+.freelance .timeLine {
+    height:                     auto;
+}
+
+.photoAssistant .timeLine {
+    height:                     auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+@media screen and (max-width: 750px) {
+
+div#contactInfo {
+    float: none;
+    margin: auto auto 10px;
+    width: 95%;
+}
+
+form#contactForm {
+    float: none;
+    margin: auto;
+    width: 98%;
+}
+
+input:not([type="submit"]), textarea {
+    width: 97% !important;
+}
+
+
+input[type="submit"] {
+    float: right;
+}
+
+
+  input:required:invalid, input:focus:invalid {
+    background-position: right 10px !important;
+  }
+  input:required:valid {
+    background-position: right 10px !important;
+  }
+
+
+    textarea:required:invalid, textarea:focus:invalid {
+    background-position: right 10px !important;
+  }
+  textarea:required:valid {
+    background-position: right 10px !important;
+  }
+
+
+}
+
+@media screen and (max-width: 650px) {
+
+
+.downloadCV {
+    left: 190px;
+    top: 480px;
+}
+
+
+}
+
+
+@media screen and (max-width: 600px) {
+
+.intro {
+    top: 60px;
+}
+
+
+}
+
